@@ -1,0 +1,22 @@
+{
+  "name": "friendly.chatter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Avixph/Advice-Slip-Project.git",
+  "author": "Angel B. Fernandez <25628695+Avixph@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "browserslist": [
+    "last 1 chrome version"
+  ],
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  }
+}
